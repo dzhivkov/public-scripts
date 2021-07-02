@@ -9,4 +9,4 @@
 Import-Module C:\ProgramData\Boxstarter\Boxstarter.Chocolatey\boxstarter.chocolatey.psd1
 
 # Install Package
-Install-BoxstarterPackage -PackageName https://raw.githubusercontent.com/dzhivkov/public-scripts/main/box.ps1
+Install-BoxstarterPackage -PackageName https://raw.githubusercontent.com/dzhivkov/public-scripts/main/box-wsl.ps1
