@@ -5,8 +5,8 @@
 # Install BoxStarter
 . { Invoke-WebRequest -useb http://boxstarter.org/bootstrapper.ps1 } | Invoke-Expression; get-boxstarter -Force
 
-# Run the BoxStarter Shell
-BoxstarterShell
+# Import BoxStarter Module
+Import-Module C:\ProgramData\Boxstarter\Boxstarter.Chocolatey\boxstarter.chocolatey.psd1
 
 # Install Package
 Install-BoxstarterPackage -PackageName https://raw.githubusercontent.com/dzhivkov/public-scripts/main/box.ps1
